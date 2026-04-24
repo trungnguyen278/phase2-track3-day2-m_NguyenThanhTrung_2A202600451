@@ -1,0 +1,55 @@
+# Virtual env
+.venv/
+venv/
+env/
+ENV/
+
+# Secrets
+.env
+.env.*
+!.env.example
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.ipynb_checkpoints/
+
+# Data / persistence
+chroma_db/
+*.sqlite
+*.sqlite3
+*.db
+redis-dump.rdb
+dump.rdb
+episodic_log.json
+profile_store.json
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Logs
+*.log
+logs/
+
+# Build
+build/
+dist/
+
+# Claude
+.claude/
+
